@@ -1,3 +1,6 @@
+.def > *{
+  display: none;
+}
 .intro {
     background: black;
     position: fixed;

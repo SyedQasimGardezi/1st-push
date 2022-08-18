@@ -10,7 +10,7 @@ function Header() {
   useEffect(()=>{
       tl2.to(link1.current,{x:'0%',opacity:1,delay:2.5,duration:1})
           .to(link2.current,{x:'0%',opacity:1},'-=0.5')
-          .to(logo.current,2,{opacity:1})
+          .to(logo.current,1,{opacity:1})
   })
   return (
     <header>

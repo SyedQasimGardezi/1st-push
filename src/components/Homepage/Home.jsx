@@ -11,14 +11,18 @@ function Home() {
     const slider = useRef();
     const intro = useRef();
     useEffect(() => {
-        tl.to(text1.current, { y: "0%", duration: 0.5})
+        tl
+           .to(text1.current, { y: "0%", duration: 0.5})
            .to(text2.current, { y: "0%", duration: 0.5})
            .to(text3.current, { y: "0%", duration: 0.5 })
-           .to(slider.current, { y: "-100%", duration: 1, delay: 0.5 })
-           .to(intro.current, { y: "-100%", duration: 1 }, "-=0.90");
+           .to(slider.current, { y: "-100%", duration: 1.5, delay: 0.5 })
+           .to(intro.current, { y: "-100%", duration: 1 }, "-=1")
+           .to(text1.current,{duration:0.1,
+            onComplete: () => document.querySelector('.abc').classList.remove('def')},"-=1.2");
         } );
+
     return (
-        <div> 
+        <div className='abc def'> 
             <Hero />
             <Projects/>
             <div ref={intro} className="intro">
@@ -30,11 +34,11 @@ function Home() {
                         <span ref={text2} className="text">Qasim Gardezi</span>
                     </h1>
                     <h1 className="hide">
-                        <span ref={text3} className="text">OwO</span>
+                        <span ref={text3} className="text">...</span>
                     </h1>
                 </div>
             </div>
-            <div ref={slider} className="slider"></div>
+            <div ref={slider} className="slider"></div>     
         </div>
     )
 }

@@ -3,7 +3,7 @@
     background-position: center;
     padding-bottom: 5em;
 }
-.project-section {
+.project-section { 
     padding-top: 5em;
     min-height: 100vh;
     display: grid;
@@ -29,8 +29,8 @@
     border-radius: 10px;
     overflow: hidden;
     outline: black 1px solid;
+    transition: all 0.3s;
 }
-
 .one {
     background-image: linear-gradient(to right, #8360c3, #2ebf91);
 }
@@ -77,7 +77,7 @@
     background-position: center;
 }
 .test {
-    background-image: url(./itachi.jpg);
+    background-image: url(./itachi-card.jpg);
     background-position: top;
 }
 
@@ -143,6 +143,7 @@
 @media screen and (min-width:786px) {
     .project-section {
         grid-template-columns: auto auto auto;
+        row-gap: 5em;
     }
     .heading-project{
         font-size: 5rem;
