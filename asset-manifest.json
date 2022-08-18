@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/1st-push/static/css/main.d82af3db.css",
-    "main.js": "/1st-push/static/js/main.d7898ff6.js",
+    "main.css": "/1st-push/static/css/main.96fd679c.css",
+    "main.js": "/1st-push/static/js/main.5f1fdf2e.js",
     "static/js/787.9b177bf7.chunk.js": "/1st-push/static/js/787.9b177bf7.chunk.js",
     "static/media/hero-bg.jpg": "/1st-push/static/media/hero-bg.ad9f3be5ee8bc0bdf3db.jpg",
     "static/media/okabe1.png": "/1st-push/static/media/okabe1.29cbeca47c345120266d.png",
@@ -13,12 +13,12 @@
     "static/media/hunter-x-hunter-killua-pfp-1.jpg": "/1st-push/static/media/hunter-x-hunter-killua-pfp-1.3c389d601dea5b6fc9f2.jpg",
     "static/media/ayaka.jpg": "/1st-push/static/media/ayaka.c4c7f5ffacc2bd88981a.jpg",
     "index.html": "/1st-push/index.html",
-    "main.d82af3db.css.map": "/1st-push/static/css/main.d82af3db.css.map",
-    "main.d7898ff6.js.map": "/1st-push/static/js/main.d7898ff6.js.map",
+    "main.96fd679c.css.map": "/1st-push/static/css/main.96fd679c.css.map",
+    "main.5f1fdf2e.js.map": "/1st-push/static/js/main.5f1fdf2e.js.map",
     "787.9b177bf7.chunk.js.map": "/1st-push/static/js/787.9b177bf7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d82af3db.css",
-    "static/js/main.d7898ff6.js"
+    "static/css/main.96fd679c.css",
+    "static/js/main.5f1fdf2e.js"
   ]
 }
