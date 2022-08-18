@@ -10,13 +10,13 @@ footer{
 .logo-footer{
     color: white;
     font-weight: bold;
-    opacity: 0;
+    opacity: 1;
 }
 .footer-list{
     display: flex;
     list-style-type: none;
     column-gap: 20px; 
-    opacity: 0;
+    opacity: 1;
 }
 .footer-li{
     color: white;

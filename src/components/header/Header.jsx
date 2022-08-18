@@ -17,8 +17,8 @@ function Header() {
       <div ref={logo} className="logo-header">JSX</div>
       <nav>
         <ul className='header-list'>
-            <NavLink className='link' to='/'><li className='header-li' ref={link1}>Home</li></NavLink>
-            <NavLink className='link' to='/contact'><li className='header-li' ref={link2}>Contact</li></NavLink>
+            <NavLink className='link' to='/1st-push'><li className='header-li' ref={link1}>Home</li></NavLink>
+            <NavLink className='link' to='/'><li className='header-li' ref={link2}>Prop</li></NavLink>
         </ul>
       </nav>
     </header>

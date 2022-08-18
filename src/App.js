@@ -6,7 +6,6 @@ import Calculator from './components/Calculator/Calculator'
 import Palindrome from './components/palindrome/palindrome'
 import Stopwatch from './components/Stopwatch/stopwatch'
 import Random from './components/RandomNumber/Random'
-import Contact from './components/contact/Contact'
 import Clock from './components/clock/clocks'
 import { BrowserRouter,Routes,Route} from 'react-router-dom'
 
@@ -17,13 +16,12 @@ function App() {
     <>
       <Header/>
       <Routes>
-        <Route path="/" element= {<Home/>} />
+        <Route path="/1st-push" element= {<Home/>} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/palindrome" element={<Palindrome />} />
         <Route path="/stopwatch" element={<Stopwatch />} />
         <Route path="/random" element={<Random />} />
         <Route path="/clock" element={<Clock />} />
-        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>
 
