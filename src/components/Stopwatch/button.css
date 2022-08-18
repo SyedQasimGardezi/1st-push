@@ -1,0 +1,36 @@
+.stopwatch-button{
+    padding: 1em;
+    background-color: white;
+    letter-spacing: 0.1rem;
+    color: black;
+    border: 2px solid black;
+    width: 5rem;
+    border-radius: 10px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    font-size: var(--p);
+    z-index: 1;
+}
+.stopwatch-button::before{
+    content: '';
+    position: absolute;
+    background-color: pink;
+    border-radius: 10px;
+    inset: 0;
+    z-index: -1;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path 0.5s ease-in-out;
+}
+.stopwatch-button:hover,.stopwatch-button:focus{
+    color: white;
+    border: white 2px solid;
+}
+.stopwatch-button:hover::before,.stopwatch-button:focus::before{
+    clip-path: circle(100% at 50% 50%);
+}
+@media screen and (min-width:786px){
+    .stopwatch-button{
+        width: 10rem;
+    }
+}

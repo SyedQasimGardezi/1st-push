@@ -1,0 +1,11 @@
+.stopwatch-display{
+    background-color: white;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+@media screen and (min-width:786px) {
+    .stopwatch-display{
+        padding: 2em 3em;
+    }
+}

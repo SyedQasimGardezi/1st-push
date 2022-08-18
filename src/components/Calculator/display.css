@@ -1,0 +1,17 @@
+.calc-display{
+    display: grid;
+    background-color: azure;
+    outline: solid black 1px;
+    width: 100%;
+    height: 15vh;
+    border-radius: 10px;
+}
+
+.solution{
+    display: flex;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+.question{
+    margin-left: 10px;
+}

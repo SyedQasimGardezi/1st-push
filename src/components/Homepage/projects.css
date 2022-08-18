@@ -1,0 +1,156 @@
+#projects{
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);    background-size: cover;
+    background-position: center;
+    padding-bottom: 5em;
+}
+.project-section {
+    padding-top: 5em;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.heading-project {
+    font-size: var(--heading);
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    height: 70vh;
+    width: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+    outline: black 1px solid;
+}
+
+.one {
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.two {
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.three {
+    background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, rgba(4, 189, 228, 1) 0%, rgba(2, 83, 185, 1) 100.2%);
+}
+
+.four {
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+.five {
+    background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+}
+.six {
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);}
+
+.projectimg {
+    font-size: var(--heading);
+    position: absolute;
+    background-size: cover;
+    z-index: 1;
+    height: 45vh;
+    width: 100%;
+}
+
+.calc {
+    background-image: url(./nobara.jpg);
+    background-position: center;
+}
+
+.stopwatch {
+    background-image: url(./zoro.jpg);
+    background-position: center;
+}
+
+.time {
+    background-image: url(./okabe1.png);
+    background-position: center;
+}
+.test {
+    background-image: url(./itachi.jpg);
+    background-position: top;
+}
+
+.palindrome {
+    background-image: url(./hunter-x-hunter-killua-pfp-1.jpg);
+    background-position: center;
+}
+
+.random {
+    background-image: url(./ayaka.jpg);
+}
+
+.projectName {
+    position: absolute;
+    padding: 0.5em;
+    bottom: 0%;
+    transition: all 0.5s ease-in;
+}
+
+.projectName::before {
+    content: '';
+    background-color: blueviolet;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    opacity: 0;
+    z-index: 999;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+}
+
+.projectDesc {
+    padding: 0.5em;
+    font-size: var(--p);
+    position: absolute;
+    top: 100%;
+    transition: transfrom 0.5s ease-in,opacity 1s;
+    opacity: 0;
+}
+
+.card:hover .projectName,.card:focus .projectName,
+.card:hover .projectDesc,.card:focus .projectDesc{
+    transform: translateY(-85px);
+    opacity: 1;
+}
+.card:hover .projectName::before{
+    opacity: 100%;
+    transform-origin: left;
+}
+
+@media (hover:none){
+    .projectName,.projectDesc{
+        transform: translateY(-90px);
+        opacity: 1;
+    }
+    .projectName::before{
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width:786px) {
+    .project-section {
+        grid-template-columns: auto auto auto;
+    }
+    .heading-project{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:785px) {
+    .project-section {
+        grid-template-columns: auto auto;
+    }
+}

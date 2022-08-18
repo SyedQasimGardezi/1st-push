@@ -1,0 +1,73 @@
+.random-section{
+    min-height: 100vh;
+    background-image: url("./bg.png");
+    background-color: coral;
+    padding-block: 10em;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    color: white;
+    place-items: center;
+}
+.random-content{
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 128, 0, 0.75);
+    height: 50vh;
+    width: 90vw;
+    border-radius: 10px;
+    text-align: center;
+}
+.heading,.ending{
+    font-size: var(--heading);
+    font-size: bold;
+}
+.random-input{
+    background-color: white;
+    padding: 2em 3em;
+    border-radius: 10px;
+    border: 2px black solid;
+    width: 70%;
+    font-size: var(--p);
+}
+.random-button{
+    padding: 1em;
+    background-color: white;
+    letter-spacing: 0.1rem;
+    color: black;
+    border: 2px solid black;
+    width: 5rem;
+    border-radius: 10px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    font-size: var(--p);
+    z-index: 1;
+}
+.random-button::before{
+    content: '';
+    position: absolute;
+    background-color: pink;
+    border-radius: 10px;
+    inset: 0;
+    z-index: -1;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path 0.5s ease-in-out;
+}
+.random-button:hover,.random-button:focus{
+    color: white;
+    z-index: 2;
+    border: white 2px solid;
+}
+.random-button:hover::before,.random-button:focus::before{
+    clip-path: circle(100% at 50% 50%);
+}
+@media screen and (min-width:786px){
+    .random-button{
+        width: 10rem;
+    }
+    .random-content{
+        height: 80vh;
+        width: 50vw;
+    }
+}
