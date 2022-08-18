@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/1st-push/static/css/main.98c745ef.css",
-    "main.js": "/1st-push/static/js/main.ba3e6349.js",
+    "main.css": "/1st-push/static/css/main.d82af3db.css",
+    "main.js": "/1st-push/static/js/main.d7898ff6.js",
     "static/js/787.9b177bf7.chunk.js": "/1st-push/static/js/787.9b177bf7.chunk.js",
     "static/media/hero-bg.jpg": "/1st-push/static/media/hero-bg.ad9f3be5ee8bc0bdf3db.jpg",
     "static/media/okabe1.png": "/1st-push/static/media/okabe1.29cbeca47c345120266d.png",
@@ -9,16 +9,16 @@
     "static/media/nobara.jpg": "/1st-push/static/media/nobara.3676213ec9325a78d503.jpg",
     "static/media/bg1.jpg": "/1st-push/static/media/bg1.b2692df1a85f2f3bf157.jpg",
     "static/media/zoro.jpg": "/1st-push/static/media/zoro.ff972efd9697b58ccb95.jpg",
-    "static/media/itachi.jpg": "/1st-push/static/media/itachi.3a55993fc950ea5f0acd.jpg",
+    "static/media/itachi-card.jpg": "/1st-push/static/media/itachi-card.3a55993fc950ea5f0acd.jpg",
     "static/media/hunter-x-hunter-killua-pfp-1.jpg": "/1st-push/static/media/hunter-x-hunter-killua-pfp-1.3c389d601dea5b6fc9f2.jpg",
     "static/media/ayaka.jpg": "/1st-push/static/media/ayaka.c4c7f5ffacc2bd88981a.jpg",
     "index.html": "/1st-push/index.html",
-    "main.98c745ef.css.map": "/1st-push/static/css/main.98c745ef.css.map",
-    "main.ba3e6349.js.map": "/1st-push/static/js/main.ba3e6349.js.map",
+    "main.d82af3db.css.map": "/1st-push/static/css/main.d82af3db.css.map",
+    "main.d7898ff6.js.map": "/1st-push/static/js/main.d7898ff6.js.map",
     "787.9b177bf7.chunk.js.map": "/1st-push/static/js/787.9b177bf7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98c745ef.css",
-    "static/js/main.ba3e6349.js"
+    "static/css/main.d82af3db.css",
+    "static/js/main.d7898ff6.js"
   ]
 }
