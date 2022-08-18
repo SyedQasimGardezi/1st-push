@@ -12,7 +12,7 @@ function Projects() {
     const five = useRef();
     const six = useRef();
     useEffect(()=>{
-        gsap.fromTo(one.current,{opacity:0,y:'100'},{opacity:1,duration:0.5,y:'0',scrollTrigger:{
+        gsap.fromTo(one.current,{scale:0,duration:0.5},{scale:1,duration:0.5,scrollTrigger:{
             trigger:one.current,start:'top bottom'
         }})
         gsap.fromTo(two.current,{opacity:0,y:'100'},{opacity:1,duration:0.5,y:'0',scrollTrigger:{
@@ -32,7 +32,6 @@ function Projects() {
         }});
 
     })
-    
 
     const onHover1=()=>{
         gsap.fromTo(one.current,{scale:0.9,zIndex:999,duration:0.1},{scale:1.1,zIndex:999,duration:0.2})
