@@ -11,11 +11,11 @@ function Home() {
     const slider = useRef();
     const intro = useRef();
     useEffect(() => {
-        tl.to(text1.current, { y: "0%", duration: 1})
-           .to(text2.current, { y: "0%", duration: 1})
-           .to(text3.current, { y: "0%", duration: 1 })
-           .to(slider.current, { y: "-100%", duration: 1.5, delay: 0.5 })
-           .to(intro.current, { y: "-100%", duration: 1 }, "-=1.5");
+        tl.to(text1.current, { y: "0%", duration: 0.5})
+           .to(text2.current, { y: "0%", duration: 0.5})
+           .to(text3.current, { y: "0%", duration: 0.5 })
+           .to(slider.current, { y: "-100%", duration: 1, delay: 0.5 })
+           .to(intro.current, { y: "-100%", duration: 1 }, "-=0.90");
         } );
     return (
         <div> 

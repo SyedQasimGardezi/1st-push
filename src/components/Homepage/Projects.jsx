@@ -12,22 +12,22 @@ function Projects() {
     const five = useRef();
     const six = useRef();
     useEffect(()=>{
-        gsap.fromTo(one.current,{opacity:0,y:'100'},{opacity:1,duration:2,y:'0',scrollTrigger:{
+        gsap.fromTo(one.current,{opacity:0,y:'100'},{opacity:1,duration:1,y:'0',scrollTrigger:{
             trigger:one.current,start:'top bottom'
         }})
-        gsap.fromTo(two.current,{opacity:0,y:'100'},{opacity:1,duration:2,y:'0',scrollTrigger:{
+        gsap.fromTo(two.current,{opacity:0,y:'100'},{opacity:1,duration:1,y:'0',scrollTrigger:{
             trigger:two.current,start:'top bottom'
         }})
-        gsap.fromTo(three.current,{opacity:0,y:'100'},{opacity:1,duration:2,y:'0',scrollTrigger:{
+        gsap.fromTo(three.current,{opacity:0,y:'100'},{opacity:1,duration:1,y:'0',scrollTrigger:{
             trigger:three.current,start:'top bottom'
         }})
-        gsap.fromTo(four.current,{opacity:0,y:'100'},{opacity:1,duration:2,y:'0',scrollTrigger:{
+        gsap.fromTo(four.current,{opacity:0,y:'100'},{opacity:1,duration:1,y:'0',scrollTrigger:{
             trigger:four.current,start:'top bottom'
         }})
-        gsap.fromTo(five.current,{opacity:0,y:'100'},{opacity:1,duration:2,y:'0',scrollTrigger:{
+        gsap.fromTo(five.current,{opacity:0,y:'100'},{opacity:1,duration:1,y:'0',scrollTrigger:{
             trigger:five.current,start:'top bottom'
         }})
-        gsap.fromTo(six.current,{opacity:0,y:'100'},{opacity:1,duration:2,y:'0',scrollTrigger:{
+        gsap.fromTo(six.current,{opacity:0,y:'100'},{opacity:1,duration:1,y:'0',scrollTrigger:{
             trigger:six.current,start:'top bottom'
         }})
     })

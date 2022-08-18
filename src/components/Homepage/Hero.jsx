@@ -24,7 +24,7 @@ function Hero() {
   }
   const tl = gsap.timeline({ defaults: { ease: 'power1.out' } });
   useEffect(() => {
-    tl.to(bigtext.current, { duration: 1, x: "0%", opacity: 1, delay: 5 })
+    tl.to(bigtext.current, { duration: 1, x: "0%", opacity: 1, delay: 3})
       .fromTo(buttonref.current,{opacity:0},{opacity:1,duration:0.2},"-=1")
   })
   return (
