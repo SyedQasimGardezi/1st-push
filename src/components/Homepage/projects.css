@@ -51,7 +51,8 @@
     background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
 }
 .six {
-    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);}
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+}
 
 .projectimg {
     font-size: var(--heading);
@@ -65,41 +66,73 @@
 .calc {
     background-image: url(./nobara.jpg);
     background-position: center;
+    outline: 1px black solid;
+    transition: all 0.1s ease-in;
+}
+.card:hover .calc{
+    background-image: url(./nobara1.jpeg);
 }
 
+
 .stopwatch {
-    background-image: url(./zoro.jpg);
+    background-image: url(./zoro1.jpg);
     background-position: center;
+    outline: 1px black solid;
+    transition: all 0.1s ease-in;
+}
+.card:hover .stopwatch{
+    background-image: url(./zoro.jpg);
 }
 
 .time {
     background-image: url(./okabe1.png);
     background-position: center;
+    outline: 1px black solid;
+    transition: all 0.1s ease-in;
+}
+.card:hover .time{
+    background-image: url(./oakbe.jpg);
 }
 .test {
     background-image: url(./itachi-card.jpg);
     background-position: top;
+    outline: 1px black solid;
+    transition: all 0.1s ease-in;
+}
+.card:hover .test{
+    background-image: url(./itachi2.jpg);
 }
 
 .palindrome {
-    background-image: url(./hunter-x-hunter-killua-pfp-1.jpg);
+    background-image: url(./killua.jpg);
     background-position: center;
+    outline: 1px black solid;
+    transition: all 0.1s ease-in;
+}
+.card:hover .palindrome{
+    background-image: url(./killua1.jpg);
 }
 
 .random {
-    background-image: url(./ayaka.jpg);
+    background-image: url(./mikasa1.jpg);
+    outline: 1px black solid;
+    transition: all 0.1s ease-in;
+}
+.card:hover .random{
+    background-image: url(./Mikasa2.jpg);
+    background-position: right;
 }
 
 .projectName {
     position: absolute;
     padding: 0.5em;
     bottom: 0%;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .projectName::before {
     content: '';
-    background-color: blueviolet;
+    background-color: greenyellow;
     width: 100%;
     height: 5px;
     position: absolute;
@@ -108,7 +141,7 @@
     opacity: 0;
     z-index: 999;
     border-radius: 10px;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .projectDesc {
@@ -116,7 +149,7 @@
     font-size: var(--p);
     position: absolute;
     top: 100%;
-    transition: transfrom 0.5s ease-in,opacity 1s;
+    transition: transfrom 0.2s ease-in,opacity 1s;
     opacity: 0;
 }
 
@@ -125,7 +158,7 @@
     transform: translateY(-85px);
     opacity: 1;
 }
-.card:hover .projectName::before{
+.card:hover .projectName::before,.card:focus .projectName::before{
     opacity: 100%;
     transform-origin: left;
 }

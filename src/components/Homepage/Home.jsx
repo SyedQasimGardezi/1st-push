@@ -22,7 +22,7 @@ function Home() {
         } );
 
     return (
-        <div className='abc def'> 
+        <div className=''> 
             <Hero />
             <Projects/>
             <div ref={intro} className="intro">
