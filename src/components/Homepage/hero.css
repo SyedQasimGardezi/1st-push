@@ -1,5 +1,5 @@
 .hero-section{
-    background-image: url(./hero-bg.jpg);
+    background-image: url(./content/hero-bg.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -75,7 +75,7 @@
 
 
 .hero-section2{
-    background-image: url(./bg1.jpg);
+    background-image: url(./content/bg1.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;

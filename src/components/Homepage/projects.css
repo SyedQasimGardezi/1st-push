@@ -64,63 +64,66 @@
 }
 
 .calc {
-    background-image: url(./nobara.jpg);
+    background-image: url(./content/nobara.jpg);
     background-position: center;
     outline: 1px black solid;
     transition: all 0.1s ease-in;
 }
 .card:hover .calc{
-    background-image: url(./nobara1.jpeg);
+    background-image: url(./content/nobara1.jpeg);
 }
 
 
 .stopwatch {
-    background-image: url(./zoro1.jpg);
+    background-image: url(./content/zoro1.jpg);
     background-position: center;
     outline: 1px black solid;
     transition: all 0.1s ease-in;
 }
 .card:hover .stopwatch{
-    background-image: url(./zoro.jpg);
+    background-image: url(./content/zoro.jpg);
 }
-
 .time {
-    background-image: url(./okabe1.png);
+    background-image: url(./content/okabe1.png);
     background-position: center;
     outline: 1px black solid;
     transition: all 0.1s ease-in;
+    background-position: 0% 10%;
+
 }
 .card:hover .time{
-    background-image: url(./oakbe.jpg);
+    background-image: url(./content/oakbe.jpg);
+    background-position: center;
 }
 .test {
-    background-image: url(./itachi-card.jpg);
+    background-image: url(./content/itachi-card.jpg);
     background-position: top;
     outline: 1px black solid;
     transition: all 0.1s ease-in;
 }
 .card:hover .test{
-    background-image: url(./itachi2.jpg);
+    background-image: url(./content/itachi2.jpg);
 }
 
 .palindrome {
-    background-image: url(./killua.jpg);
+    background-image: url(./content/killua.jpg);
     background-position: center;
     outline: 1px black solid;
     transition: all 0.1s ease-in;
 }
 .card:hover .palindrome{
-    background-image: url(./killua1.jpg);
+    background-image: url(./content/killua1.jpg);
 }
 
 .random {
-    background-image: url(./mikasa1.jpg);
+    background-image: url(./content/mikasa1.jpg);
     outline: 1px black solid;
+    background-position: 25% 0%;
     transition: all 0.1s ease-in;
 }
 .card:hover .random{
-    background-image: url(./Mikasa2.jpg);
-    background-position: right;
+    background-image: url(./content/Mikasa2.jpg);
+    background-position: 85% 0%;
 }
 
 .projectName {
@@ -180,6 +183,8 @@
     }
     .heading-project{
         font-size: 5rem;
+    }.card:hover .random{
+        background-position: right;
     }
 }
 

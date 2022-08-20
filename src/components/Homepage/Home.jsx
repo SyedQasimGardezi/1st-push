@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react'
 import Hero from './Hero'
 import Projects from './Projects'
+import Animation from './svg-animation/Animation'
 import { gsap } from "gsap";
 import './home.css'
 function Home() {
@@ -17,14 +18,15 @@ function Home() {
            .to(text3.current, { y: "0%", duration: 0.5 })
            .to(slider.current, { y: "-100%", duration: 1.5, delay: 0.5 })
            .to(intro.current, { y: "-100%", duration: 1 }, "-=1")
-           .to(text1.current,{duration:0.1,
-            onComplete: () => document.querySelector('.abc').classList.remove('def')},"-=1.2");
+        //    .to(text1.current,{duration:0.1,
+        //     onComplete: () => document.querySelector('.abc').classList.remove('def')},"-=1.2");
         } );
 
     return (
-        <div className=''> 
+        <div className='abc def'> 
             <Hero />
             <Projects/>
+            <Animation/>
             <div ref={intro} className="intro">
                 <div className="intro-text">
                     <h1 className="hide">
