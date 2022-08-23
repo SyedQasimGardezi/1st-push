@@ -30,7 +30,7 @@ function Animation() {
             </div>
             <div className="right-animation-body">
                 <div className="svg-plus-text">
-                    <p className="bob">This is bob</p>
+                    <p className="bob">He is bob</p>
                     <svg className='pointer' width="150" height="75" viewBox="0 0 62 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.5 9.50002C6.16667 4.00002 18.3 -3.29998 21.5 11.5C25.5 30 12 22.5 11 17C10 11.5 18 -2.49999 28 2.50001C36 6.50001 39.5 11.5 36.5 18C34 22.5 29.2 31.5 28 11.5C26.8 -8.5 49.5 11.1667 61 23.5M61 23.5V18M61 23.5H56" stroke="white" />
                     </svg>
