@@ -27,7 +27,6 @@
         padding: 0em 5em;
         border-radius: 10px;
         margin-top: 2em;
-        text-align: center;
         justify-content: center;
         transition: all 0.5s ease-in-out;
         position: relative;
@@ -35,8 +34,9 @@
     .eyes{
         background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
         height: 50vh;
-        width: 100%;
+        width: 50%;
         display: grid;
+        transform: translateX(50%);
         border-radius: 10px;
         margin: 0em 0.5em;
         place-items: center;
@@ -65,7 +65,7 @@
     .shut span{
         display: block;
         width: 100%;
-        height: 10%;
+        height: 2%;
         border: 0 60% 60%;
         background-color: RGB(238, 187, 153);
         transition: all 0.3s;
@@ -132,7 +132,6 @@
 @media screen and (min-width:786px) {
     .animation-body{
         display: grid;
-        grid-template-columns: 50% 50%;
     }
     .pointer{
         position: absolute;

@@ -5,14 +5,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 function Animation() {
     const balls = document.getElementsByClassName('ball');
-    window.onmouseover = function(e){
-        console.log(e)
+    window.onmousemove = function(e){
             var x =e.clientX * 100 /window.innerWidth + '%';
             var y =e.clientY * 100 /window.innerHeight + '%';
-        // let x = e.pageX + "px";
-        // let y = e.pageY + "px";
-        console.log(x);
-        console.log(y);
         for(var i=0;i<2;i++){
             balls[i].style.left = x;
             balls[i].style.top = y;
