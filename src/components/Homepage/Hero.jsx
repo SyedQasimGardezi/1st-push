@@ -24,7 +24,7 @@ function Hero() {
   }
   const tl = gsap.timeline({ defaults: { ease: 'power1.out' } });
   useEffect(() => {
-    tl.to(bigtext.current, { duration: 1, x: "0%", opacity: 1, delay: 3})
+    tl.to(bigtext.current, { duration: 1, x: "0%", opacity: 1, delay: 0})
       .fromTo(buttonref.current,{opacity:0},{opacity:1,duration:0.2},"-=1")
   })
   return (
@@ -41,7 +41,7 @@ function Hero() {
         <div>
           <div className="hero-content2">
             <h1 ref={bigtext2} className='big-text2'>No Sun for You!</h1>
-            <button onClick={click2} className='hero-button hero-button2-index'>Ah shit!</button>
+            <button onClick={click2} className='hero-button hero-button2-index'>Bruh!</button>
           </div>
         </div>
       </div>

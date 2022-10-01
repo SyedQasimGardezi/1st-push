@@ -91,35 +91,35 @@ function Projects() {
                     <div>
                         <div className='projectimg calc'></div>
                         <h1 className='projectName'>Calculator</h1>
-                        <p className='projectDesc'>Use the best calculator in the world and calculate your mom's worth</p>
+                        <p className='projectDesc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptates.</p>
                     </div>
                 </NavLink>
                 <NavLink ref={two} onMouseOver={onHover2} onMouseLeave={onLeave2} className="card two" to='/stopwatch'>
                     <div>
                         <div className='projectimg stopwatch'></div>
                         <h1 className='projectName'>Stopwatch</h1>
-                        <p className='projectDesc'>Use the best stopwatch in the world to make customer leave after time is done</p>
+                        <p className='projectDesc'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, placeat.</p>
                     </div>
                 </NavLink>
                 <NavLink ref={three} onMouseOver={onHover3} onMouseLeave={onLeave3} className="card three" to='/palindrome'><div >
                     <div className='projectimg palindrome'></div>
                     <h1 className='projectName'>Palindrome</h1>
-                    <p className='projectDesc'>Use the best palindrome detector in the world for time pass while your mama is doing hard wok</p>
+                    <p className='projectDesc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, est.</p>
                 </div></NavLink>
                 <NavLink ref={four} onMouseOver={onHover4} onMouseLeave={onLeave4} className="card four" to='/random'><div>
                     <div className='projectimg random'></div>
                     <h1 className='projectName'>High/Low</h1>
-                    <p className='projectDesc'>Play the best High/Low in the world for time pass while your mama is doing hard wok</p>
+                    <p className='projectDesc'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, libero.</p>
                 </div></NavLink>
                 <NavLink ref={five} onMouseOver={onHover5} onMouseLeave={onLeave5} className="card five" to='/clock'><div>
                     <div className='projectimg time'></div>
                     <h1 className='projectName'>Clock</h1>
-                    <p className='projectDesc'>Use the best Clock in the world to see how much time is left in your mama's shift</p>
+                    <p className='projectDesc'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, nulla.</p>
                 </div></NavLink>
                 <NavLink ref={six} onMouseOver={onHover6} onMouseLeave={onLeave6} className="card six" to='/calculator'><div>
                     <div className='projectimg test'></div>
                     <h1 className='projectName'>Test</h1>
-                    <p className='projectDesc'>Use the best Clock in the world to see how much time is left in your mama's shift</p>
+                    <p className='projectDesc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, rem?</p>
                 </div></NavLink>
 
 

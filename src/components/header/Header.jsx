@@ -8,7 +8,7 @@ function Header() {
   const logo = useRef();
   const tl2 = gsap.timeline( )
   useEffect(()=>{
-      tl2.to(link1.current,{x:'0%',opacity:1,delay:2.5,duration:1})
+      tl2.to(link1.current,{x:'0%',opacity:1,delay:0,duration:0.2})
           .to(link2.current,{x:'0%',opacity:1},'-=0.5')
           .to(logo.current,1,{opacity:1})
   })
